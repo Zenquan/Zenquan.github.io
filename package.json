@@ -1,6 +1,6 @@
 {
   "name": "react-ts-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is my front-end project cli.",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,9 @@
   "keywords": [
     "front-end",
     "cli",
-    "project"
+    "project",
+    "react-ts",
+    "koa"
   ],
   "author": "zenquan",
   "license": "MIT",
