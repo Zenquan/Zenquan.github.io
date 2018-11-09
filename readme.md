@@ -11,4 +11,4 @@ $ react-ts-cli init my-project
 
 ## view
 
-![images/init.png]
+![init](images/init.png)
