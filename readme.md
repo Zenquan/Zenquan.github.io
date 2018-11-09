@@ -1,9 +1,14 @@
 # react-ts-cli
 
+>A simple react-ts cli for scaffolding zen's react-ts projects.
+
+## setup
+
+```bash
 $ npm react-ts-cli -g
-
 $ react-ts-cli init my-project
+```
 
-$ cd my-project/App
+## view
 
-$ npm install
+![images/init.png]
