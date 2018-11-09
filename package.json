@@ -1,0 +1,35 @@
+{
+  "name": "react-ts-cli",
+  "version": "1.0.3",
+  "description": "This is my front-end project cli.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "react-ts-cli": "bin/react-ts-cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zenquan/react-ts-cli.git"
+  },
+  "keywords": [
+    "front-end",
+    "cli",
+    "project"
+  ],
+  "author": "zenquan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zenquan/react-ts-cli/issues"
+  },
+  "homepage": "https://github.com/Zenquan/react-ts-cli#readme",
+  "devDependencies": {
+    "commander": "^2.9.0",
+    "download-git-repo": "^0.1.2",
+    "ora": "^0.3.0"
+  },
+  "dependencies": {
+    "react-ts-cli": "^1.0.3"
+  }
+}
