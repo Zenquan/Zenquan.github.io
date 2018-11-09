@@ -12,3 +12,8 @@ $ react-ts-cli init my-project
 ## view
 
 ![init](images/init.jpg)
+
+## dir
+
+- App：front-end（react+redux+react-router+react-thunk）
+- Server：koa
