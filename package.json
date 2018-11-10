@@ -1,13 +1,13 @@
 {
   "name": "react-ts-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is my front-end project cli.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "react-ts-cli": "bin/react-ts-cli.js"
+    "react-ts": "bin/react-ts-cli.js"
   },
   "repository": {
     "type": "git",
