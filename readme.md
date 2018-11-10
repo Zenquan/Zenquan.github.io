@@ -6,7 +6,7 @@
 
 ```bash
 $ npm react-ts-cli -g
-$ react-ts-cli init my-project
+$ react-ts init my-project
 ```
 
 ## view
