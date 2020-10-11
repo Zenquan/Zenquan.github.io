@@ -9,11 +9,11 @@
 ```bash
 windows
 
-$ npm @jomsou/cli -g
+$ npm i @jomsou/cli -g
 
 mac
 
-$ sudo npm @jomsou/cli -g
+$ sudo i npm @jomsou/cli -g
 ```
 
 ### 增加模板
