@@ -24,9 +24,7 @@ jobs:
         npx version-from-git --allow-same-version --template 'master.short'
     - name: Publish to npmjs
       run: | 
-        npm publish
-        echo GITHUB_TOKEN: $GITHUB_TOKEN
-        echo NODE_AUTH_TOKEN: $NODE_AUTH_TOKEN
+        npm publish --access public
       env:
         GITHUB_TOKEN: ${{ secrets.MG }}
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
