@@ -1,37 +1,32 @@
 {
-  "name": "react-ts-cli",
-  "version": "1.0.4",
-  "description": "This is my front-end project cli.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "name": "@zen/cli",
+  "version": "1.0.0",
+  "description": "A simple CLI for creating my projects",
   "bin": {
-    "react-ts": "bin/react-ts-cli.js"
+    "zen": "bin/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Zenquan/react-ts-cli.git"
+    "url": "git+https://github.com/Zenquan/zen-cli.git"
   },
   "keywords": [
-    "front-end",
     "cli",
-    "project",
-    "react-ts",
-    "koa"
+    "boohee"
   ],
   "author": "zenquan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Zenquan/react-ts-cli/issues"
+    "url": "https://github.com/Zenquan/zen-cli/issues"
   },
-  "homepage": "https://github.com/Zenquan/react-ts-cli#readme",
-  "devDependencies": {
-    "commander": "^2.9.0",
-    "download-git-repo": "^0.1.2",
-    "ora": "^0.3.0"
-  },
+  "homepage": "https://github.com/Zenquan/zen-cli#readme",
   "dependencies": {
-    "react-ts-cli": "^1.0.1"
+    "chalk": "^2.4.1",
+    "cli-table": "^0.3.1",
+    "commander": "^2.16.0",
+    "download-git-repo": "^1.0.2",
+    "handlebars": "^4.0.11",
+    "inquirer": "^6.0.0",
+    "metalsmith": "^2.3.0",
+    "ora": "^1.2.0"
   }
 }
