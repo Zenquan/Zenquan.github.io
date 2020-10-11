@@ -1,5 +1,5 @@
 {
-  "name": "@zen/cli",
+  "name": "@jomsou/cli",
   "version": "1.0.1",
   "description": "A simple CLI for creating my projects",
   "bin": {
